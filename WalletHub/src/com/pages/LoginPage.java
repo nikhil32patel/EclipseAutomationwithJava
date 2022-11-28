@@ -37,6 +37,7 @@ public class LoginPage {
 		password.clear();
 		password.sendKeys(Pass);
 		button.click();
+		System.out.println(" Login ");
 	}
 
 }
